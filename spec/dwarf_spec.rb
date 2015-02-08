@@ -1,7 +1,7 @@
 require_relative "../lib/dwarf"
 require "rspec"
 
-Rspec.describe Dwarf do
+Rspec.describe "Dwarf-Mountain interactions using Rspec mocks" do
   context "#mine" do
     it "is excited when it finds gems" do
     end
