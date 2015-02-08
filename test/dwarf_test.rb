@@ -5,6 +5,7 @@ require "mocha/mini_test"
 
 describe "Dwarf-Mountain interactions using Minitest::Mock" do
   it "is excited when it finds gems" do
+    assert Dwarf
   end
 
   it "curses profusely when it finds coal" do
@@ -16,6 +17,7 @@ end
 
 describe "Dwarf-Mountain interactions using Mocha" do
   it "is excited when it finds gems" do
+    assert Dwarf
   end
 
   it "curses profusely when it finds coal" do
