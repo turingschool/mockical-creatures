@@ -1,6 +1,7 @@
 require_relative "../lib/dwarf"
 require "minitest/autorun"
 require "minitest/spec"
+require "minitest/pride"
 require "mocha/mini_test"
 
 describe "Dwarf-Mountain interactions using Minitest::Mock" do
